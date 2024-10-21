@@ -11,7 +11,7 @@ armbian-config -> set hostname
 
 ### All commands executed with root priviledges 
 
-git clone https://github.com/opentoideas/rockpi-cluster-setup.git
+git clone https://github.com/opentoideas/new-rock64.git
 cd rockpi-cluster-setup
 
 ### UPDATE environment.vals, mac.sh with appropriate values
@@ -20,10 +20,6 @@ cd rockpi-cluster-setup
 
 #Setup Mining:
 ./setup_miner.sh
-
-replace ccminer with new and add execute permission all 3 rebuild with last command in miner setup
-
-./build.sh
 
 #Finally run to setup Verus as a service and kick it off.  
 
