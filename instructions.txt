@@ -11,7 +11,7 @@ armbian-config -> set hostname
 
 ### All commands executed with root priviledges 
 
-git clone https://github.com/opentoideas/new-rock64.git
+git clone https://github.com/opentoideas/rockpi-cluster-setup.git
 cd rockpi-cluster-setup
 
 ### UPDATE environment.vals, mac.sh with appropriate values
